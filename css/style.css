@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    padding: 0 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-image: url("/imagens/guedes.PNG"); */
+    background-size: cover;
+}
+
+#text{
+    transition: 2s;
+    display: none;
+    font-size: 200px;
+}
+
+@media screen and (max-width: 800px){
+    #text{
+        font-size: 50px;
+    }
+
+    body{
+        background-size: contain;
+    }
+}
